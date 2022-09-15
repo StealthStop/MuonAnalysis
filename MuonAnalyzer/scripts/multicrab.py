@@ -92,7 +92,7 @@ def getOptions():
 
     parser.add_option('-k', '--storageSite',
                       dest = 'storageSite',
-                      default = 'CERNBOX',
+                      default = 'FNAL',
                       help = "Storage site: 'CERN' (default), 'CERNBOX' (note: requires permission), 'FNAL'.",
                       metavar = 'STORAGE')
 
